@@ -43,15 +43,22 @@ body{
 h1{
   color: #c12258;
   font-size: 2em;
-
+  line-height: 2;
+  text-align: center;
   /*Req 2*/
 }
 
 p{
+  padding-top: 15px;
   
 }
 
 a{
+  font-size: 16px;
+  color: #B21F50;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  
   
 }
 
@@ -61,22 +68,41 @@ a{
 
 
 td{
+  padding: 15px;
+  text-align: center;
+  border-top: 2px solid #000000;
   
 }
 
 
 .colhead{
   color: #FFFFFF;
-
+  background-color: #7e0820;
+  padding: 10px;
+  min-width: 125px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
 }
 
 .rowhead{
+  border-right: 2px solid #000000;
+  border-top: 2px solid #000000;
+  text-align: center;
+  vertical-align: middle;
+
 
 }
 
 
 table{
-    border: 5px solid #000000;
+  border: 5px solid #000000;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: separate;
+  
 }
 
 /* I gave you the selector, but not the property-value pair. 
