@@ -24,12 +24,18 @@ caption{
 
 /*END STARTER CODE*/
 
+
 body{
   color: #000000;
   font-size: 16px;
   margin: 1.2em;
   background-size: cover ;
   background-position: center;
+  font-family: 'Andika', sans-serif;
+  background-image: url("../images/pigeon-background.JPEG");
+  background-color: #dddddd;
+  background-repeat: no-repeat;
+
 
   /*Req 1*/
 }
