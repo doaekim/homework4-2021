@@ -24,12 +24,10 @@ caption{
 
 /*END STARTER CODE*/
 
-
 body{
-  font-size: 2em; 
   color: #000000;
   font-size: 16px;
-  margin: 2em;
+  margin: 1.2em;
   background-size: cover ;
   background-position: center;
   font-family: 'Andika', sans-serif;
@@ -38,19 +36,23 @@ body{
   background-repeat: no-repeat;
 }
 
-
+main{
+  margin-bottom: 100px;
+}
 
 h1{
-  
   color: #c12258;
   font-size: 2em;
   line-height: 2;
   text-align: center;
 }
 
+caption{
+  margin: 5px 0px;
+}
+
 p{
   padding-top: 15px;
-  
 }
 
 a{
@@ -61,10 +63,6 @@ a{
   
 }
 
-/*Req 5*/
-/*Add selector and rule here*/
-
-
 table{
   border: 5px solid #000000;
   text-align: center;
@@ -72,9 +70,10 @@ table{
   margin-left: auto;
   margin-right: auto;
   border-collapse: separate;
-  
 }
 
+/*Req 5*/
+/*Add selector and rule here*/
 
 .colhead{
   color: #FFFFFF;
@@ -88,18 +87,15 @@ table{
 
 .rowhead{
   border-right: 2px solid #000000;
-  border-left: 2px solid #000000;
+  border-top: 2px solid #000000;
   text-align: center;
   vertical-align: middle;
-  
 }
 
-
 td{
-  padding: 10px;
+  padding: 15px;
   text-align: center;
   border-top: 2px solid #000000;
-  
 }
 
 tr{
@@ -107,14 +103,11 @@ tr{
   padding: 10px 10px 10px 10px;
 }
 
-
-
 *:focus{
   border-style: dashed;
   border-width: 3px;
   border-color: #417243;
 }
-
 
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
@@ -122,27 +115,26 @@ thead tr:first-child th:first-child{
   border-top-left-radius: 50px;
 }
 
-thead tr:first-child th:last-child{
+thead tr:last-child th:last-child{
   border-top-right-radius: 50px;
 }
 
 tbody tr:last-child th:first-child{
-  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 
-
-tbody tr:last-child th:last-child{
+tbody tr:last-child td:last-child{
   border-bottom-right-radius: 50px;
 }
 
 tbody tr:nth-child(even){
-  background: #d1d1d1;
+  background: #d1d1d1
 }
 
+/*Add selectors and rules here*/
 tbody tr:hover{
-  background-color: rgba(126, 8, 32, .25);
+  background-color: rgba(126,8,32,.25);
 }
-
 
 footer{
   width:100%;
