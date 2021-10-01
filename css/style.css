@@ -41,7 +41,7 @@ main{
 }
 
 h1{
-  color: #B21F50;
+  color: #C12258;
   font-size: 2em;
   line-height: 2;
   text-align: center;
@@ -77,7 +77,7 @@ table{
 
 .colhead{
   color: #FFFFFF;
-  background-color: #B21F50;
+  background-color: #7e0825;
   padding: 10px;
   min-width: 125px;
   text-align: center;
