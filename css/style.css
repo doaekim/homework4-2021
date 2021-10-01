@@ -122,7 +122,7 @@ tr:nth-child(odd){
 }
 
 tbody tr:hover{
-  background-color: rgba(126, 8, 48, .25);
+  background-color: rgba(;
 }
 
 thead tr:first-child th:first-child{
