@@ -119,7 +119,7 @@ tr{
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
 thead tr:first-child th:first-child{
-  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
 }
 
 thead tr:first-child th:last-child{
@@ -131,7 +131,7 @@ thead tr:last-child th:first-child{
 }
 
 thead tr:last-child th:last-child{
-  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 
 tbody tr:nth-child(even){
