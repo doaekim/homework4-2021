@@ -30,17 +30,19 @@ body{
   color: #000000;
   font-size: 16px;
   margin: 2em;
-  background-size: cover ;
+  background-size: auto ;
   background-position: center;
   font-family: 'Andika', sans-serif;
-  background: url(../images/pigeon-background.JPEG) center no-repeat #DDDDDD;
+  background-image: url(../images/pigeon-background.JPEG);
+  background-color: #DDDDDD;
+  background-repeat: no-repeat;
 }
 
 
 h1{
   
   color: #c12258;
-  font-size: 2em;
+  font-size: 32px;
   line-height: 2;
   text-align: center;
 }
