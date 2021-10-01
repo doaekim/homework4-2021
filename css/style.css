@@ -117,19 +117,28 @@ tr{
 }
 
 
-
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
 thead tr:first-child th:first-child{
   border-bottom-right-radius: 50px;
 }
 
-
-tbody tr:nth-child(even){
-  background: #d1d1d1
+thead tr:first-child th:last-child{
+  border-bottom-right-radius: 50px;
 }
 
-/*Add selectors and rules here*/
+thead tr:last-child th:first-child{
+  border-bottom-right-radius: 50px;
+}
+
+thead tr:last-child th:last-child{
+  border-bottom-right-radius: 50px;
+}
+
+tbody tr:nth-child(even){
+  background: #d1d1d1;
+}
+
 tbody tr:hover{
   background-color: rgba(126,8,32,.25);
 }
