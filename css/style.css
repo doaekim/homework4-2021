@@ -133,7 +133,7 @@ tbody tr:nth-child(even){
 
 /*Add selectors and rules here*/
 tbody tr:hover{
-  background-color: rgba(178,31,80,.25);
+  background-color: rgba(126,8,37,.25);
 }
 
 footer{
