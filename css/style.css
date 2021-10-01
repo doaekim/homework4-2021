@@ -30,19 +30,20 @@ body{
   color: #000000;
   font-size: 16px;
   margin: 2em;
-  background-size: auto ;
+  background-size: cover ;
   background-position: center;
   font-family: 'Andika', sans-serif;
-  background-image: url(../images/pigeon-background.JPEG);
-  background-color: #DDDDDD;
+  background-image: url("../images/pigeon-background.JPEG");
+  background-color: #dddddd;
   background-repeat: no-repeat;
 }
+
 
 
 h1{
   
   color: #c12258;
-  font-size: 32px;
+  font-size: 2em;
   line-height: 2;
   text-align: center;
 }
@@ -86,8 +87,8 @@ table{
 }
 
 .rowhead{
-  border-top: 2px solid #000000;
   border-right: 2px solid #000000;
+  border-left: 2px solid #000000;
   text-align: center;
   vertical-align: middle;
   
@@ -101,6 +102,11 @@ td{
   
 }
 
+tr{
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+
 
 
 *:focus{
@@ -112,35 +118,29 @@ td{
 
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
-
-
-
-tr:nth-child(even){
-  background-color: #d1d1d1;
-}
-
-tr:nth-child(odd){
-  background-color: transparent; 
-}
-
-tbody tr:hover{
-  background-color: rgba(;
-}
-
 thead tr:first-child th:first-child{
-  border-top-left-radius: 10px;
+  border-top-left-radius: 50px;
 }
 
-thead tr:first-child th:last-child {
-  border-top-right-radius: 10px;
+thead tr:first-child th:last-child{
+  border-top-right-radius: 50px;
 }
 
 tbody tr:last-child th:first-child{
-  border-bottom-left-radius: 10px;
+  border-top-left-radius: 50px;
 }
 
-tbody tr:last-child td:last-child{
-  border-bottom-right-radius: 10px;
+
+tbody tr:last-child th:last-child{
+  border-bottom-right-radius: 50px;
+}
+
+tbody tr:nth-child(even){
+  background: #d1d1d1;
+}
+
+tbody tr:hover{
+  background-color: rgba(126, 8, 32, .25);
 }
 
 
