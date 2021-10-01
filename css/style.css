@@ -126,13 +126,13 @@ thead tr:first-child th:last-child{
   border-top-left-radius: 50px;
 }
 
-thead tr:last-child th:first-child{
+tbody tr:last-child th:first-child{
   border-top-left-radius: 50px;
 }
 
 
-thead tr:last-child th:last-child{
-  border-top-left-radius: 50px;
+tbody tr:last-child th:last-child{
+  border-bottom-right-radius: 50px;
 }
 
 tbody tr:nth-child(even){
